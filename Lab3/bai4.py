@@ -16,6 +16,6 @@ def process_file(reader):
         line = line.strip()
         print(line)
 
-input_file = open('D:\\Python\\alkaline_metals.txt', 'r')
+input_file = open('D:\\Python\\PythonTH\\Lab3\\alkaline_metals.txt', 'r')
 process_file(input_file)
 input_file.close()

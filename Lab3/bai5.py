@@ -11,6 +11,6 @@ def smallest_value_skip(reader):
             smallest = min(smallest, value)
     return smallest
 
-input_file = open('D:\\Python\\alkaline_metals.txt', 'r')
+input_file = open('D:\\Python\\PythonTH\\Lab3\\alkaline_metals.txt', 'r')
 print(smallest_value_skip(input_file))
 input_file.close()

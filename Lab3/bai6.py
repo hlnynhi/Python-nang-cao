@@ -12,6 +12,6 @@ def smallest_value_skip2(reader):
     value = line
     smallest = min(smallest, value)
     return smallest
-input_file = open('D:\\Python\\alkaline_metals.txt', 'r')
+input_file = open('D:\\Python\\PythonTH\\Lab3\\alkaline_metals.txt', 'r')
 print(smallest_value_skip2(input_file))
 input_file.close()
